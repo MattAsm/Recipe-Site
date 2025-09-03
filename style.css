@@ -1,8 +1,36 @@
 :root{
     font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(20, 20, 20);
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
 }
 
 .breadImg{
     width: 500px;
     border-radius: 10px;
+}
+
+#recipeList{
+   list-style: none;
+}
+
+#recipeList li{
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+a:active{
+    background-color: rgb(36, 36, 36);
+    color: rgb(165, 165, 165);  
 }
